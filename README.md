@@ -111,11 +111,6 @@ queue. Feature requests are genuinely welcome, but the product's guiding constra
 it must reduce cognitive load, never add to it, so "no, and here's why" is a real possible
 answer.
 
-## Not open source
-
-The extension's source is not published, and nothing in this repository is licensed for
-reuse. The brand assets above are © JobPinboard, all rights reserved.
-
 ---
 
 <sub>Not affiliated with, endorsed by, or sponsored by LinkedIn Corporation. LinkedIn is a
