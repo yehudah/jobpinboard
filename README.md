@@ -88,7 +88,7 @@ there, add a 👍 rather than opening a duplicate. Reactions are how work gets p
 
 ## Opening an issue
 
-| | |
+| If | Then |
 |---|---|
 | 🐛 Something is broken | [**Report a bug**](../../issues/new?template=bug_report.yml) |
 | 💡 Something is missing | [**Request a feature**](../../issues/new?template=feature_request.yml) |
