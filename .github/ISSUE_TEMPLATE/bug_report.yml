@@ -1,0 +1,106 @@
+name: 🐛 Bug report
+description: Something in JobPinboard is broken or behaving unexpectedly.
+title: "[Bug]: "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this.
+
+        ⚠️ **This issue will be public and indexed by search engines.** Before attaching a
+        screenshot, crop or redact job titles, company names, recruiter names and your own
+        LinkedIn identity. A close-up of the broken control is what helps — the surrounding
+        job list is not. If you can't describe the problem without private details,
+        email **support@jobpinboard.com** instead.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you expect, and what happened instead?
+      placeholder: |
+        Expected: clicking "Applied" turns the pill green and it stays after a reload.
+        Actual: the pill turns green, but it's gone when I reload the page.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The exact sequence, as if you were telling someone else how to see it.
+      placeholder: |
+        1. Open LinkedIn Jobs and search for "product manager"
+        2. Hover the third card and click "Applied"
+        3. Reload the page
+        4. The status is gone
+    validations:
+      required: true
+
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Where on LinkedIn did this happen?
+      description: If you're not sure, check the address bar — the part after `linkedin.com`.
+      options:
+        - Job search (/jobs/search/)
+        - Recommended or collections (/jobs/collections/)
+        - AI or semantic results (/jobs/search-results/)
+        - Saved jobs / My Jobs
+        - The toolbar popup (the JobPinboard icon)
+        - Somewhere else — described above
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: JobPinboard version
+      description: "Open `chrome://extensions`, find JobPinboard — the version is the number under the name."
+      placeholder: "0.1.0"
+    validations:
+      required: true
+
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and version
+      description: "Open `chrome://version` — the first line. Brave, Edge and Arc are fine too, just say which."
+      placeholder: "Chrome 141.0.7390.65"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - macOS
+        - Windows
+        - Linux
+        - ChromeOS
+    validations:
+      required: true
+
+  - type: textarea
+    id: console
+    attributes:
+      label: Console errors (optional)
+      description: >
+        Right-click the LinkedIn page → Inspect → Console tab. Paste anything red, especially
+        lines mentioning JobPinboard. Skip this if it looks like a hassle — it's a bonus, not
+        a requirement.
+      render: shell
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and this isn't already reported.
+          required: true
+        - label: >
+            Any screenshot I've attached has job titles, company names, recruiter names and
+            my personal details removed — or I've attached none.
+          required: true

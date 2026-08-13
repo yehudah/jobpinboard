@@ -1,0 +1,58 @@
+name: 💡 Feature request
+description: Suggest something JobPinboard should do.
+title: "[Feature]: "
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The most useful requests describe **the problem**, not the solution. If you tell me
+        what your job hunt looks like at the moment this gets annoying, I can often solve it
+        in a way neither of us had thought of.
+
+        ⚠️ This issue will be public. Keep company names and personal details out of it.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: What's the moment in your job hunt where JobPinboard gets in your way or falls short?
+      placeholder: >
+        I apply to roles across three cities and I can never remember which pile a job is in.
+        Right now I put the city in the note, but then I can't filter by it.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would you like JobPinboard to do?
+      description: Your idea for a fix. Rough is fine — it doesn't need to be designed.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: How often do you hit this?
+      options:
+        - Every session
+        - About once a week
+        - Occasionally
+        - Once so far, but it stuck with me
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Anything else? (optional)
+      description: How you work around it today, or another tool that gets this right.
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and this isn't already requested.
+          required: true
