@@ -2,7 +2,7 @@ blank_issues_enabled: false
 contact_links:
   - name: 🔒 Something private, personal or account-related
     url: https://jobpinboard.com/support
-    about: Anything you would not want indexed publicly. Reaches a human, not a queue.
+    about: Anything you would not want indexed publicly. The private form; reaches a human, not a queue.
   - name: 🕵️ Privacy or data-handling question
     url: https://jobpinboard.com/privacy.html
     about: What is stored, where it lives, and what leaves your device (nothing).

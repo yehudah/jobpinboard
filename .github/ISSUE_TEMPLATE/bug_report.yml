@@ -11,8 +11,8 @@ body:
         ⚠️ **This issue will be public and indexed by search engines.** Before attaching a
         screenshot, crop or redact job titles, company names, recruiter names and your own
         LinkedIn identity. A close-up of the broken control is what helps — the surrounding
-        job list is not. If you can't describe the problem without private details,
-        email **support@jobpinboard.com** instead.
+        job list is not. If you can't describe the problem without private details, use the
+        [private contact form](https://jobpinboard.com/support#contact) instead.
 
   - type: textarea
     id: what-happened

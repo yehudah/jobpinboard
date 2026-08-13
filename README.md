@@ -92,7 +92,7 @@ there, add a 👍 rather than opening a duplicate. Reactions are how work gets p
 |---|---|
 | 🐛 Something is broken | [**Report a bug**](../../issues/new?template=bug_report.yml) |
 | 💡 Something is missing | [**Request a feature**](../../issues/new?template=feature_request.yml) |
-| 🔒 Anything private, personal or account-related | [support@jobpinboard.com](mailto:support@jobpinboard.com) |
+| 🔒 Anything private, personal or account-related | [the private contact form](https://jobpinboard.com/support#contact) |
 | 🕵️ Privacy or data questions | [privacy@jobpinboard.com](mailto:privacy@jobpinboard.com) |
 
 > [!IMPORTANT]
@@ -100,8 +100,8 @@ there, add a 👍 rather than opening a duplicate. Reactions are how work gets p
 > nobody else's business — including ours. Before you attach a screenshot, crop or redact
 > the job titles, company names, recruiter names and your own LinkedIn identity. A screenshot
 > of the *broken control* is what helps; the surrounding job list is not. If a report can't
-> be made without your private details in it, email
-> [support@jobpinboard.com](mailto:support@jobpinboard.com) instead.
+> be made without your private details in it, use the
+> [private contact form](https://jobpinboard.com/support#contact) instead.
 
 ## What to expect
 
